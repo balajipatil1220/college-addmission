@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Collage Addmission</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="formcontainer">
+            <form action="" id="formid">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="name">Full Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="name" name="name" placeholder="Your name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">Father Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="Fathername" placeholder="Your Father name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="birthday">Date of Birth</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="date" id="birthday" name="birthday">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="cname">PUC College Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="cname" name="Collegename" placeholder="Your College name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="pucPerct">PUC Percentage</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="number" id="pucPerct" name="pucPerct" placeholder="Your PUC Percentage">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="">Address</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea name="" id="address" cols="10" rows="1"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="">Select Branch</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="radio" id="cse" name="branch" value="Computer Science">
+                        <label id="branch" for="cse">Computer Science</label><br>
+                        <input type="radio" id="ece" name="branch" value="Electronic Communication">
+                        <label id="branch" for="ece">Electronic Engineering</label><br>
+                        <input type="radio" id="eee" name="branch" value="Electrical">
+                        <label id="branch" for="eee">Electric Engineering</label>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <input type="submit" value="Submit" id="submit">
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="container ">
+        <div style="overflow-x:auto;" id="tcont"></div>
+    </div>
+    <!-- <button id="1" class="btn-d" onclick="deleteStu(this.id)">Delete</button> -->
+
+    <script src="index.js"></script>
+</body>
+
+</html>
